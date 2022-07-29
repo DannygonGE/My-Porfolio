@@ -1,0 +1,169 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Uchen', serif;
+}
+
+* {
+    margin: 0%;
+}
+
+:root {
+    --black: #000000;
+    --light-gray: #F0F0F0;
+    --red: #AD0606;
+    --light-red: #CB3434;
+    --pink: #DFB6B6;
+    --purple: #8E22A5;
+    --white: #fff;
+    --linkedin: #0072b1;
+    --github: #bd2c00;
+    font-size: 16px;
+    
+}
+
+.structure {
+    display: flex;
+    flex-direction: row;
+}
+.social {
+    width: 100px;
+    height: 1000px;
+    border-right: 1px solid var(--light-gray);
+}
+
+h1 {
+    font-family: 'Uchen', serif;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    padding: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--black)
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+    margin-left: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hi {
+    font-size: 20px;
+    line-height: 80px;
+}
+.name {
+    font-size: 4.8rem;
+}
+
+.i {
+    color: var(--purple);
+    font-family: 'Uchen', serif;
+}
+
+.i2 {
+    font-size: 2rem;
+}
+
+.profession {
+    font-size: 3rem;
+    line-height: 90px;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    background-color: var(--purple);
+    color: var(--light-gray);
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 300px;
+    display: flex;
+    gap: 200px;
+    margin-right: 30px;
+}
+
+.contact-me {
+    border-right: 2px solid var(--light-gray);
+    margin-left: 30px;
+    width: 200px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 600px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.icon {
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: var(--white);
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.github {
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: var(--white);
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+.icons i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.icons .icon:hover {
+    background: var(--linkedin);
+}
+
+.icons .github:hover {
+    background:var(--github);
+}
